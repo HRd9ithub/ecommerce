@@ -19,17 +19,7 @@ import Thanks from './Components/Thanks';
 import Order from './Components/Order';
 
 const App = () => {
-  // const [userName, setUserName] = useState(null);
-  // useEffect(() => {
-  //   auth.onAuthStateChanged((user) => {
-  //     if (user) {
-  //       setUserName(user.displayName);
-  //     } else {
-  //       setUserName('');
-  //     }
-  //   });
-  // });
-
+  
   return (
     <>
 
