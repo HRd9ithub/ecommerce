@@ -1,0 +1,21 @@
+ .carousel .slider-wrapper{
+    width: 375px;
+    transition: all 0.5 ease;
+  }
+  .carousel .slider-wrapper:hover{
+   transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel{
+    text-align: center;
+  }
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: -5px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}

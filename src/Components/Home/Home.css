@@ -1,0 +1,16 @@
+.heading {
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-style: oblique;
+}
+.home {
+    width: auto;
+    height: 91vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(179, 255, 179);
+    color: cornflowerblue;
+}

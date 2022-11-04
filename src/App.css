@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*-------------------------------- Header style------------------------------------ */
+.navbar-nav li a {
+  font-size: 17px;
+}
+.navbar-brand{
+  letter-spacing: 3PX;
+  text-align: center;
+}
+/* a.nav-link:hover{
+  color: rgb(51, 133, 255);
+}
+a.nav-link:active {
+  color: rgb(51, 133, 255); */
+/* } */
+
+
+/*-------------------------------- card style------------------------------------ */
+.card{
+  transition: all 0.5 ease;
+}
+.card:hover{
+ transform: scale(1.1);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+/*-------------------------------- about style------------------------------------ */
+
+.img{
+ animation: up-down 2s ease-in-out infinite alternate-reverse both;
+ 
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateY(-17px);
+  }
+}
+.text{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ---------------------------quantity btn style ---------------------*/
+
+.quantitybtn:hover {
+  color: red;
+}
+.quantity input[type="text"] {
+  width: 50px;
+  text-align: center;
+  margin: 4px;
+}
+
+/* ----------------footer style ---------------*/
+.footer {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+/* ----------------tab panel style ---------------*/
+div#uncontrolled-tab-example-tabpane-home {
+  width: 62rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin: 158px; */
+  margin-left: 200px;
+}
+
+/* ----------------thank you style ---------------*/
+.text {
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+/*-----------------order page style-------------------*/
+
+.orderimg {
+  width: auto;
+  height: 330px;
+}
